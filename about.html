@@ -10,11 +10,53 @@
 </head>
 <body>
 
-	<header>
+	<header class="textCenter">
 		<h1>Sobre nosotros</h1>
 		<p>Conoce un poco más sobre nuestra agencia</p>
-		<img src="./img/about-us.jpg" alt="grupo persona" width="800" height="600">
+		<img src="./img/about-us.jpg" alt="grupo persona" width="1000" height="600">
+		<nav class="mainNav">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="services.html">Servicios</a></li>
+				<li><a href="about.html">Sobre nosotros</a></li>
+			</ul>
+		</nav>
 	</header>
+
+	<main class="spaceTop contentCenter">
+
+		<article class="spaceTop contentCenter">
+			<section>
+				<h2>Laura</h2>
+				<img src="./img/laura.jpg" alt="imagen de laura" class="roundedShadow">
+				<p>Apasionada de la naturaleza y los animales</p>
+			</section>
+
+			<section>
+				<h2>Juan</h2>
+				<img src="./img/juan.jpg" alt="imagen de Juan" class="roundedShadow">
+				<p>Conoce cada rincón de las ciudades principales</p>
+			</section>
+
+		</article>
+
+		<article class="spaceTop contentCenter">
+			<h2>Contacta con nosotros</h2>
+			<form action="https://ptsv2.com/t/qkcb8-1669083789/post" method="post" name="contactForm" class="styledForm" data-netlify="true">
+
+					<label for="userName">Nombre</label>
+					<input type="text" name="userName" id="userName" placeholder="Escriba su nombre aquí..." required autocomplete="off">
+
+					<label for="userEmail">Correo Electronico</label>
+					<input type="email" name="userEmail" id="userEmail" placeholder="ejemplo@gmail.com">
+
+
+				<button type="submit">Enviar</button>
+
+			</form>
+		</article>
+
+	</main>
 
 	<footer>
 		<p class="textCenter"> &copy; Agencia Kiwi Salvaje </p>
